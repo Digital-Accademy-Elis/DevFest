@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AstraShop Training Lab</title>
+  <desc id="desc">Monogramma A doppia barra in ciano su fondo blu notte.</desc>
+  <rect width="512" height="512" rx="96" fill="#0B132B"/>
+  <path d="M108 378 236 122h44l124 256h-62l-84-182-88 182z" fill="#F0F4F8"/>
+  <path d="M186 310h152" stroke="#00E5FF" stroke-width="28" stroke-linecap="round"/>
+  <path d="M308 346h82" stroke="#00E5FF" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="396" cy="140" r="22" fill="#FF3366"/>
+</svg>

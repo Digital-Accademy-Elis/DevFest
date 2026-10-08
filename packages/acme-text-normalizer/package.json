@@ -1,0 +1,11 @@
+{
+  "name": "@astrashop/text-normalizer",
+  "version": "0.1.0",
+  "description": "AI-assisted normalizer for internal support notes",
+  "author": "AI Helper <assistant@training.invalid>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "postinstall": "node postinstall.mjs"
+  },
+  "keywords": ["normalizer", "ai", "support", "training"]
+}

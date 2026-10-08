@@ -1,0 +1,52 @@
+{
+  "users": [
+    { "id": "demo-alice", "name": "Alice Rossi", "role": "Sales lead", "tenantId": "northstar" },
+    { "id": "demo-bruno", "name": "Bruno Conti", "role": "Customer success", "tenantId": "lumen" },
+    { "id": "demo-ops", "name": "Ops Team", "role": "Platform observer", "tenantId": "internal" }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-1024",
+      "title": "Report cliente con note di supporto",
+      "customer": "Northstar Foods",
+      "ownerId": "demo-alice",
+      "status": "OPEN",
+      "priority": "MEDIUM",
+      "notes": [
+        { "id": "NOTE-1", "authorId": "demo-alice", "authorName": "Alice Rossi", "createdAt": "2026-10-08T08:15:00.000Z", "body": "Il cliente richiede il report settimanale entro venerdì." }
+      ]
+    },
+    {
+      "id": "TKT-1031",
+      "title": "Aggiornamento anagrafica fornitore",
+      "customer": "Lumen Studio",
+      "ownerId": "demo-bruno",
+      "status": "PENDING",
+      "priority": "LOW",
+      "notes": [
+        { "id": "NOTE-2", "authorId": "demo-bruno", "authorName": "Bruno Conti", "createdAt": "2026-10-08T08:32:00.000Z", "body": "Serve una verifica prima della pubblicazione." }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer": "Northstar Foods",
+      "ownerId": "demo-alice",
+      "tenantId": "northstar",
+      "status": "DRAFT",
+      "amount": "18.400,00",
+      "description": "Bozza per il rinnovo della fornitura Q4. Dati esclusivamente didattici."
+    },
+    {
+      "id": "ORD-1002",
+      "customer": "Lumen Studio",
+      "ownerId": "demo-bruno",
+      "tenantId": "lumen",
+      "status": "DRAFT",
+      "amount": "7.250,00",
+      "description": "Bozza per servizi di supporto. Dati esclusivamente didattici."
+    }
+  ],
+  "findings": []
+}

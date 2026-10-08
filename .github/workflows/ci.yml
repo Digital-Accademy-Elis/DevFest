@@ -1,0 +1,24 @@
+name: Training baseline CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Syntax check
+        run: |
+          node --check server.mjs
+          node --check public/app.js
+      - name: Baseline tests
+        run: node --test tests/health.test.mjs
+
+# TRAINING GAP:
+# No secret scanning, SAST, SCA, dependency allowlist, lockfile policy or SBOM.

@@ -1,0 +1,7 @@
+.git
+node_modules
+.env
+.env.*
+*.log
+!data/debug.log
+!data/telemetry.log

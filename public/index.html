@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AstraShop Training Lab — laboratorio CTF isolato per Blind Trust" />
+    <link rel="icon" href="/astrashop-mark.svg" type="image/svg+xml" />
+    <title>AstraShop Training Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Salta al contenuto</a>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navigazione del laboratorio">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">A//</div>
+          <div>
+            <strong>AstraShop</strong>
+            <span>TRAINING LAB</span>
+          </div>
+        </div>
+        <div class="scope-label">[LAB_SCOPE: LOCAL_ONLY]</div>
+        <nav class="nav-list" aria-label="Moduli">
+          <button class="nav-item active" data-view="dashboard"><span>01</span> Dashboard</button>
+          <button class="nav-item" data-view="tickets"><span>02</span> Ticket &amp; report</button>
+          <button class="nav-item" data-view="orders"><span>03</span> Bozze d'ordine</button>
+          <button class="nav-item" data-view="repository"><span>04</span> Repository</button>
+          <button class="nav-item" data-view="findings"><span>05</span> Finding board</button>
+          <button class="nav-item" data-view="guide"><span>06</span> Regole &amp; guide</button>
+        </nav>
+        <div class="sidebar-footer">
+          <p>Ambiente fittizio e resettabile.</p>
+          <p class="mono">NO_EXTERNAL_TARGETS</p>
+        </div>
+      </aside>
+
+      <main id="main-content" class="workspace" tabindex="-1">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">BLIND TRUST / WORKSHOP ENVIRONMENT</p>
+            <h1 id="view-title">Security review console</h1>
+          </div>
+          <div class="session-panel">
+            <label for="demo-user">Identità demo</label>
+            <select id="demo-user" aria-label="Seleziona utente demo"></select>
+          </div>
+        </header>
+        <div id="notice" class="notice" role="status" aria-live="polite"></div>
+        <section id="view-root" class="view-root" aria-live="polite"></section>
+      </main>
+    </div>
+    <template id="empty-state-template">
+      <div class="empty-state"><p>Nessun elemento disponibile nello stato corrente.</p></div>
+    </template>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "astrashop-training-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio isolato per il workshop Blind Trust",
+  "type": "module",
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/health.test.mjs",
+    "verify": "bash scripts/verify-lab.sh",
+    "reset": "bash scripts/reset-lab.sh",
+    "simulate:package": "node scripts/simulate-package-install.mjs"
+  },
+  "dependencies": {
+    "@astrashop/text-normalizer": "file:packages/acme-text-normalizer"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "trainingOnly": true,
+  "registry": "http://127.0.0.1:4873",
+  "package": "@astrashop/text-normalizer",
+  "version": "0.1.0",
+  "publishedAt": "2026-10-08T07:56:00.000Z",
+  "publisher": "ai-helper-bot",
+  "repository": null,
+  "maintainers": ["ai-helper-bot"],
+  "integrity": "sha512-training-only-inconsistent-metadata",
+  "approvedCatalog": false,
+  "notes": [
+    "Il nome è plausibile ma non compare nel catalogo interno approvato.",
+    "Nessun repository, owner verificabile o processo di approvazione è stato associato al package.",
+    "La registry punta a un endpoint locale fittizio: non effettuare richieste fuori dal lab."
+  ]
+}
