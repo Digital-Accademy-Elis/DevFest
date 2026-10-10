@@ -2,7 +2,7 @@ services:
   astrashop-training:
     build: .
     ports:
-      - "127.0.0.1:3000:3000"
+      - "3000:3000"
     environment:
       PORT: "3000"
       HOST: "0.0.0.0"
@@ -11,4 +11,4 @@ services:
 
 networks:
   lab-net:
-    internal: true
+    #internal: true
